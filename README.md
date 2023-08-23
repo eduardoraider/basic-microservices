@@ -27,34 +27,34 @@ docker-compose down
 ```
 
 ## Local URLs - API Gateway
-| URLs                          |
-| ----------------------------- |
-| http://localhost:4200/login   | 
-| http://localhost:4200/compra  |
-| http://localhost:4200/cursos  | 
-| http://localhost/mkt/leads    |
+| URLs                           |
+| :----------------------------- |
+| http://localhost:4200/login    | 
+| http://localhost:4200/compra   |
+| http://localhost:4200/cursos   | 
+| http://localhost/mkt/leads     |
 
 ## Submodules
-| Repository         |  Description                                  |
-| ------------------ |:----------------------------------------------|
-| academico-php      |  Microservice that consumes queues using PHP  |
-| academico-php-web  |  API of academico-php Microservice            |
-| financeiro-php     |  Microservice for API and background jobs     |
-| front-end          |  Microservice with frontend.                  |
-| mkt-node           |  Microservice for marketing containing both the API and the queue consumer.     |
+| Repository          |  Description                                  |
+| :------------------ |:----------------------------------------------|
+| academico-php       |  Microservice that consumes queues using PHP  |
+| academico-php-web   |  API of academico-php Microservice            |
+| financeiro-php      |  Microservice for API and background jobs     |
+| front-end           |  Microservice with frontend.                  |
+| mkt-node            |  Microservice for marketing containing both the API and the queue consumer. |
 
 ## Container Names
-| Container Name      |
-| ------------------- |
-| front               | 
-| web-mkt             |
-| mongo-mkt           |
-| rabbitmq            | 
-| web-financeiro      | 
-| api-gateway         | 
-| consumer-academico  | 
-| postgre-academico   | 
-| web-academico       | 
+| Container Name       |
+| :------------------- |
+| front                | 
+| web-mkt              |
+| mongo-mkt            |
+| rabbitmq             | 
+| web-financeiro       | 
+| api-gateway          | 
+| consumer-academico   | 
+| postgre-academico    | 
+| web-academico        | 
 
 
 #### 🛠 by Eduardo O Raider
